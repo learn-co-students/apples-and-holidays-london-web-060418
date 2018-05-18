@@ -77,7 +77,7 @@ end
 #   stringToPrint = ""
 #
 #   holiday_hash.each do |key, value|
-#     keyString = symbolToString(key.to_s)
+#     keyString = symbolToString(key.to_s) + ":"
 #     stringToPrint += "#{keyString}\n"
 #     holiday_hash[key].each do |attribute, attrVal|
 #       attrString = symbolToString(attribute.to_s) #to format for the symbols
